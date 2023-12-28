@@ -1,0 +1,100 @@
+body{
+    background-image: url('background.avif');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#welcome{
+   background-image: url('section.avif');
+   width: 390pt;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: aliceblue;
+   font-size: large;
+   text-align: center;
+   padding-top: 60pt; 
+   
+}
+#infor{
+    background-color: white;
+    width: 300pt;
+    float: left;
+    height: 250pt;
+    text-align: center;
+    text-align: left;
+    padding-top: 20pt;
+   
+}
+#container{
+    display: flex;
+    border-radius: 40px; 
+    overflow: hidden; 
+    position: absolute;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(28, 131, 28);  
+    font-size: 200%;
+    margin-left: 40pt;
+}
+#email{
+    border-radius: 15pt;
+    border-color: rgb(7, 41, 17);
+    margin-left: 40pt;
+    padding: 5pt;
+    width: 180pt;
+}
+#senha{
+    border-radius: 15pt;
+    border-color: rgb(7, 41, 17);
+    display: flex;
+    margin-top: 7pt;
+    margin-left: 40pt;
+    padding: 5pt;
+    width: 180pt;
+}
+#remember, #forgot{
+    color: hsla(0, 0%, 0%, 0.315);
+    
+}
+#button{
+    margin-left: 35pt;
+    margin-top: 9pt;
+}
+
+#entrar{
+    display: flex;
+    margin-left: 60pt;
+    margin-top: 10pt;
+    border-radius: 15pt;
+    border-color: rgb(7, 41, 17);
+    border-style: none;
+    background-image: linear-gradient(62deg,  green, rgb(148, 211, 153));
+    width: 160pt;
+    padding: 8pt;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+}
+#entrar:hover{
+    color: rgb(5, 32, 2);
+}
+a{
+    color: rgb(28, 131, 28);
+    display: flex;
+    margin-top: 20pt;
+    margin-left: 100pt;
+    text-decoration: solid;
+
+}
+a:hover{
+    color: rgb(5, 32, 2);
+}
+
